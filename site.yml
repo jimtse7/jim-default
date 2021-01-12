@@ -35,7 +35,7 @@
   - name: copy default html file for site
     tags: apache,apache2,httpd
     copy:
-      src: /files/default_site.html
+      src: files/default_site.html
       dest: /var/www/html/my_index.html
       owner: root
       group: root
